@@ -1,5 +1,5 @@
 # crosschx-frontend-coding-test
-The home for files submitted to Crosschx's front-end coding challenge
+The home for files submitted to CrossChx's front-end coding challenge
 
 ###Steps to get up and running:
 * clone this repo
