@@ -1,18 +1,20 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var MainNav = require('./MainNav');
 
 class App extends React.Component {
   render() {
     return(
       <div>
         <header>
-          <nav className="navbar navbar-default" role="navigation">
-            <div className="container">
-              <div className="page-header">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-4">
+                <MainNav />
               </div>
             </div>
-          </nav>
+          </div>
         </header>
 
         <div className="container">

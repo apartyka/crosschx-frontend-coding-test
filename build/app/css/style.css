@@ -1,0 +1,70 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Main site header */
+header {
+  background-color: #00aeff;
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.3);
+  height: 140px;
+}
+
+.navbar-container {
+  height: 140px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    background-color: transparent;
+    border: none;
+    bottom: 0;
+    margin-bottom: 0;
+    min-height: inherit;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.nav > li > a {
+  font-size: 1rem;
+  padding: 7px 14px;
+}
+
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav > li > a {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;;
+    transition: all 0.2s ease-in;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #00aeff;
+    border-bottom: 4px solid #0388d1;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .navbar-default .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .navbar-default .navbar-nav>.open>a,
+  .navbar-default .navbar-nav>.open>a:focus,
+  .navbar-default .navbar-nav>.open>a:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: #0388d1;
+  }
+}
