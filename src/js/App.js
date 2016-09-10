@@ -18,7 +18,17 @@ class App extends React.Component {
         </header>
 
         <div className="container">
-          <h1>Hello World!</h1>
+          <div className="row">
+            <div className="map-container col-lg-4">
+              <div className="items">
+                <h1>Cardiology and Cardiac Surgery</h1>
+                <h4>Oxford General Medical Center - Main</h4>
+              </div>
+            </div>
+            <div className="col-lg-8">
+              stuff
+            </div>
+          </div>
         </div>
       </div>
     );
