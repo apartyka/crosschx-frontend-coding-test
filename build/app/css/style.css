@@ -80,8 +80,12 @@ header {
       color: white;
       background-color: #0388d1; } }
 
+@media (min-width: 768px) {
+  .offset-container {
+    margin-top: -210px; } }
+
 .map-container {
   background-color: #fff;
-  margin-top: -140px; }
+  margin-top: 40px; }
   .map-container .items {
     padding: 30px 20px; }

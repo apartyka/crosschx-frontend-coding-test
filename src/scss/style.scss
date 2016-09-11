@@ -127,9 +127,19 @@ header {
   }
 }
 
+@media (min-width: 768px) {
+  .offset-container {
+    margin-top: -210px;
+  }
+}
+
+.search {
+
+}
+
 .map-container {
   background-color: #fff;
-  margin-top: -140px;
+  margin-top: 40px;
 
   .items {
     padding: 30px 20px;
