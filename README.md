@@ -13,3 +13,4 @@ The home for files submitted to CrossChx's front-end coding challenge
 ####Findings
 * I'm one that prefers global elements for interface rules. That is to say, an `h1` tag for the most prominent text on the screen.
 * Added gulp-sass midway through the project. Probably should have started out with that dependency from the beginning.
+* I initially attempted to re-create the top right icons as svgs in Sketch. That worked well for the 9 dots icon, not so well for the bell (alert) icon...in the end to save time I exported the bell as a small png from the provided mockup. I don't think it looks great, but in most cases it would be considered FPO until a better source file is provided.

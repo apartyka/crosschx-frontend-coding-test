@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#FFFFFF">
+            <g id="three-dots-copy">
+                <g id="Layer_1">
+                    <ellipse id="Oval" cx="8" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                    <ellipse id="Oval" cx="14.1304348" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                    <ellipse id="Oval" cx="1.86956522" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                </g>
+            </g>
+            <g id="three-dots-copy" transform="translate(0.000000, 6.021505)">
+                <g id="Layer_1">
+                    <ellipse id="Oval" cx="8" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                    <ellipse id="Oval" cx="14.1304348" cy="1.81046595" rx="1.70852174" ry="1.64320191"></ellipse>
+                    <ellipse id="Oval" cx="1.86956522" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                </g>
+            </g>
+            <g id="three-dots-copy" transform="translate(0.000000, 12.043011)">
+                <g id="Layer_1">
+                    <ellipse id="Oval" cx="8" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                    <ellipse id="Oval" cx="14.1304348" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                    <ellipse id="Oval" cx="1.86956522" cy="1.73252091" rx="1.70852174" ry="1.64320191"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

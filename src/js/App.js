@@ -11,6 +11,10 @@ class App extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-8 col-lg-offset-4">
+                <div className="utility">
+                  <a className="menu" title="Another Menu"></a>
+                  <a className="alerts" title="App alerts"></a>
+                </div>
                 <MainNav />
               </div>
             </div>

@@ -22,8 +22,33 @@ header {
   height: 240px;
 }
 
+.utility {
+  margin-top: 40px;
+  text-align: right;
+
+  .menu {
+    background: url('/images/group-dots--white.svg') no-repeat 0 0;
+    display: inline-block;
+    height: 17px;
+    width: 16px;
+  }
+
+  .alerts {
+    background: url('/images/alerts--bell.png') no-repeat 0 0;
+    display: inline-block;
+    height: 17px;
+    margin-left: 30px;
+    width: 17px;
+  }
+
+  .menu,
+  .alerts {
+    cursor: pointer;
+  }
+}
+
 .navbar-container {
-  height: 240px;
+  height: 177px;
   position: relative;
 }
 
