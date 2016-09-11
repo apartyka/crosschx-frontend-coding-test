@@ -2,6 +2,11 @@
   margin-top: 40px;
   text-align: right;
 
+  @media (max-width: 768px) {
+    float: right;
+    margin-top: 20px;
+  }
+
   .menu {
     background: url('/images/group-dots--white.svg') no-repeat 0 0;
     display: inline-block;

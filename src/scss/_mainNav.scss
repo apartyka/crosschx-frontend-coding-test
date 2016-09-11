@@ -1,16 +1,56 @@
+@mixin navbar() {
+  background-color: transparent;
+  border: none;
+  bottom: 0;
+  margin-bottom: 0;
+  min-height: inherit;
+  position: absolute;
+}
+
+
 .navbar-container {
   height: 177px;
   position: relative;
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    height: 60px;
+  }
 }
 
-@media (min-width: 768px) {
-  .navbar {
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar-right {
+    float: none !important;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default {
     background-color: transparent;
-    border: none;
-    bottom: 0;
-    margin-bottom: 0;
-    min-height: inherit;
-    position: absolute;
+    border-color: transparent;
+  }
+
+  .navbar-toggle {
+    float: none;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar {
+    @include navbar;
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    @include navbar;
     right: 0;
   }
 }
@@ -20,6 +60,10 @@
     > a {
       font-size: 1.2rem;
       padding: 7px 12px;
+
+      @media (min-width: 768px) and (max-width: 1200px) {
+        padding: 7px 10px;
+      }
     }
   }
 }
