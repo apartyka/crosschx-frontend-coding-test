@@ -104,9 +104,26 @@ header {
     /* Firefox 18- */
     color: rgba(255, 255, 255, 0.5) !important; }
 
-@media (min-width: 768px) {
-  .offset-container {
-    margin-top: -210px; } }
+.search .input-group-btn {
+  border-bottom: 1px solid #fff; }
+
+.search .btn {
+  background-color: transparent;
+  background-image: url("/images/search.jpg");
+  background-size: contain;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 25px;
+  outline: none; }
+
+.offset-container {
+  margin-top: -95px; }
+  @media (min-width: 768px) {
+    .offset-container {
+      margin-top: -210px; } }
 
 .map-container {
   background-color: #fff;

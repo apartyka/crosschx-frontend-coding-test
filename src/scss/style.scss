@@ -27,8 +27,10 @@ header {
 @import 'search';
 
 
-@media (min-width: 768px) {
-  .offset-container {
+.offset-container {
+  margin-top: -95px;
+
+  @media (min-width: 768px) {
     margin-top: -210px;
   }
 }

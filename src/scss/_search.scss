@@ -26,5 +26,25 @@
     &:-moz-placeholder { /* Firefox 18- */
       color: rgba(255, 255, 255, 0.5) !important;
     }
+
+
+  }
+
+  .input-group-btn {
+    border-bottom: 1px solid #fff;
+  }
+
+  .btn {
+    background-color: transparent;
+    background-image: url('/images/search.jpg');
+    background-size: contain;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+
+    display: inline-block;
+    height: 25px;
+    outline: none;
   }
 }
