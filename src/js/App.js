@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <header>
+        <header className="foo">
           <div className="container">
             <div className="row">
               <div className="col-lg-8 col-lg-offset-4">

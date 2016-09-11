@@ -11,4 +11,5 @@ The home for files submitted to CrossChx's front-end coding challenge
 
 
 ####Findings
-I'm one that prefers global elements for interface rules. That is to say, an `h1` tag for the most prominent text on the screen.
+* I'm one that prefers global elements for interface rules. That is to say, an `h1` tag for the most prominent text on the screen.
+* Added gulp-sass midway through the project. Probably should have started out with that dependency from the beginning.
