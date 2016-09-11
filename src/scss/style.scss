@@ -22,119 +22,15 @@ header {
   height: 240px;
 }
 
-.utility {
-  margin-top: 40px;
-  text-align: right;
+@import 'utilityNav';
+@import 'mainNav';
+@import 'search';
 
-  .menu {
-    background: url('/images/group-dots--white.svg') no-repeat 0 0;
-    display: inline-block;
-    height: 17px;
-    width: 16px;
-  }
-
-  .alerts {
-    background: url('/images/alerts--bell.png') no-repeat 0 0;
-    display: inline-block;
-    height: 17px;
-    margin-left: 30px;
-    width: 17px;
-  }
-
-  .menu,
-  .alerts {
-    cursor: pointer;
-  }
-}
-
-.navbar-container {
-  height: 177px;
-  position: relative;
-}
-
-@media (min-width: 768px) {
-  .navbar {
-    background-color: transparent;
-    border: none;
-    bottom: 0;
-    margin-bottom: 0;
-    min-height: inherit;
-    position: absolute;
-    right: 0;
-  }
-}
-
-.nav {
-  > li {
-    > a {
-      font-size: 1.2rem;
-      padding: 7px 12px;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-collapse {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .navbar-default {
-    .navbar-nav {
-      > li {
-        > a {
-          color: rgba(255, 255, 255, 0.5);
-          text-transform: uppercase;;
-          transition: all 0.2s ease-in;
-
-          &:hover {
-            color: rgba(255, 255, 255, 1);
-          }
-
-          &:focus {
-            color: rgba(255, 255, 255, 0.5);
-          }
-        }
-      }
-
-      > .active {
-        > a {
-          background-color: #00aeff;
-          border-bottom: 4px solid #0388d1;
-          color: rgba(255, 255, 255, 1);
-
-          &:hover {
-            background-color: #00aeff;
-            border-bottom: 4px solid #0388d1;
-            color: rgba(255, 255, 255, 1);
-          }
-        }
-      }
-
-      > .open {
-        > a {
-          color: rgba(255, 255, 255, 1);
-          background-color: #0388d1;
-
-          &:hover,
-          &:focus {
-            color: rgba(255, 255, 255, 1);
-            background-color: #0388d1;
-          }
-        }
-      }
-    }
-  }
-}
 
 @media (min-width: 768px) {
   .offset-container {
     margin-top: -210px;
   }
-}
-
-.search {
-
 }
 
 .map-container {
