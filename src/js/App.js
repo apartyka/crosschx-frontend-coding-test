@@ -1,20 +1,18 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var UtilityNav = require('./UtilityNav');
 var MainNav = require('./MainNav');
 
 class App extends React.Component {
   render() {
     return(
       <div>
-        <header className="foo">
+        <header>
           <div className="container">
             <div className="row">
               <div className="col-lg-8 col-lg-offset-4">
-                <div className="utility">
-                  <a className="menu" title="Another Menu"></a>
-                  <a className="alerts" title="App alerts"></a>
-                </div>
+                <UtilityNav />
                 <MainNav />
               </div>
             </div>
