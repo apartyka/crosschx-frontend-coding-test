@@ -5,6 +5,7 @@ var Search = require('./Search');
 var UtilityNav = require('./UtilityNav');
 var MainNav = require('./MainNav');
 var Map = require('./Map');
+var MainContent = require('./MainContent');
 
 class App extends React.Component {
   render() {
@@ -27,7 +28,7 @@ class App extends React.Component {
               <Map />
             </div>
             <div className="col-lg-8">
-              stuff
+              <MainContent />
             </div>
           </div>
         </div>

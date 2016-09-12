@@ -6,8 +6,10 @@ class Map extends React.Component {
     return(
       <div className="map-container">
         <div className="items">
-          <h1>Cardiology and Cardiac Surgery</h1>
-          <h4>Oxford General Medical Center - Main</h4>
+          <h1 className="heading">Cardiology and Cardiac Surgery</h1>
+          <h4 className="subheading">
+            Oxford General Medical Center - Main
+          </h4>
           <nav className="clearfix">
             <p className="navbar-text pull-left">
               <a href="#" className="navbar-link">
@@ -40,16 +42,18 @@ class Map extends React.Component {
           </ul>
         </div>
         <section className="map">
-          <img src="/images/map-fpo.jpg" className="img-responsive" alt="Fpo Google Map" />
+          <figure>
+            <img src="/images/map-fpo.jpg" className="img-responsive" alt="Fpo Google Map" />
+          </figure>
           <nav className="clearfix">
             <p className="navbar-text pull-left">
               <a href="#" className="navbar-link">
-                <img src="/images/map-icon.jpg" alt="Go to Map" height="25" width="20" /> Go to Map
+                <img src="/images/map-icon.jpg" alt="Go to Map" height="20" width="17" /> Go to Map
               </a>
             </p>
             <p className="navbar-text pull-right">
               <a href="#" className="navbar-link">
-                <img src="/images/constellation-icon.jpg" alt="Go to Constellation" height="25" width="20" /> Go to Constellation
+                <img src="/images/constellation-icon.jpg" alt="Go to Constellation" height="20" width="17" /> Go to Constellation
               </a>
             </p>
           </nav>
