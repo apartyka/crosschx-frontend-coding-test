@@ -31,6 +31,7 @@ class App extends React.Component {
               <MainContent />
             </div>
           </div>
+          <p>Back</p>
         </div>
       </div>
     );

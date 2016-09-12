@@ -48,7 +48,7 @@ header {
     cursor: pointer; }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .navbar-right {
+  .main-nav .navbar-right {
     float: none !important;
     margin-right: 0; } }
 
@@ -235,6 +235,12 @@ header {
       color: #337ab7; }
   .main-content .nav .dropdown-menu {
     box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.3); }
+    @media (max-width: 768px) {
+      .main-content .nav .dropdown-menu {
+        background-color: #fff;
+        left: 0;
+        position: absolute;
+        z-index: 3; } }
   .main-content__block {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
     padding: 30px;

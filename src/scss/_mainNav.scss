@@ -9,9 +9,11 @@
 
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .navbar-right {
-    float: none !important;
-    margin-right: 0;
+  .main-nav {
+    .navbar-right {
+      float: none !important;
+      margin-right: 0;
+    }
   }
 }
 
