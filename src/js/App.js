@@ -4,7 +4,7 @@ var ReactDOM = require('react-dom');
 var Search = require('./Search');
 var UtilityNav = require('./UtilityNav');
 var MainNav = require('./MainNav');
-var Map = require('./Map');
+var MapBlock = require('./Map');
 var MainContent = require('./MainContent');
 
 class App extends React.Component {
@@ -25,7 +25,7 @@ class App extends React.Component {
           <div className="row">
             <div className="offset-container col-lg-4">
               <Search />
-              <Map />
+              <MapBlock />
             </div>
             <div className="col-lg-8">
               <MainContent />
