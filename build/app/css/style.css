@@ -17,6 +17,22 @@ h1 {
     .offset-container {
       margin-top: -210px; } }
 
+.app-nav__back {
+  background: url("/images/back-arrow.svg") no-repeat left 0;
+  background-size: 40%;
+  cursor: pointer;
+  display: inline-block;
+  left: 0;
+  position: absolute;
+  top: 275px; }
+  .app-nav__back:hover {
+    text-decoration: none; }
+  .app-nav__back span {
+    color: #bcbbbb;
+    font-size: 1.2rem;
+    padding-left: 25px;
+    vertical-align: top; }
+
 header {
   background-color: #00aeff;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);

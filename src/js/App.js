@@ -31,7 +31,9 @@ class App extends React.Component {
               <MainContent />
             </div>
           </div>
-          <p>Back</p>
+          <a className="app-nav__back visible-lg-inline-block">
+            <span>Back</span>
+          </a>
         </div>
       </div>
     );

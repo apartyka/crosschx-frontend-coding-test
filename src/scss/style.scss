@@ -23,6 +23,27 @@ h1 {
   }
 }
 
+.app-nav__back {
+  background: url('/images/back-arrow.svg') no-repeat left 0;
+  background-size: 40%;
+  cursor: pointer;
+  display: inline-block;
+  left: 0;
+  position: absolute;
+  top: 275px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  span {
+    color: #bcbbbb;
+    font-size: 1.2rem;
+    padding-left: 25px;
+    vertical-align: top;
+  }
+}
+
 @import 'header'; // Top blue header
 @import 'utilityNav';
 @import 'mainNav';
