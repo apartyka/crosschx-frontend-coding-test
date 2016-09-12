@@ -41,13 +41,6 @@ header {
   .utility .alerts {
     cursor: pointer; }
 
-.navbar-container {
-  height: 177px;
-  position: relative; }
-  @media (min-width: 768px) and (max-width: 1200px) {
-    .navbar-container {
-      height: 60px; } }
-
 @media (min-width: 768px) and (max-width: 1200px) {
   .navbar-right {
     float: none !important;
@@ -65,7 +58,7 @@ header {
     z-index: 3; } }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .navbar {
+  .main-nav {
     background-color: transparent;
     border: none;
     bottom: 0;
@@ -75,7 +68,7 @@ header {
     left: 0; } }
 
 @media (min-width: 1200px) {
-  .navbar {
+  .main-nav {
     background-color: transparent;
     border: none;
     bottom: 0;
@@ -84,12 +77,19 @@ header {
     position: absolute;
     right: 0; } }
 
-.nav > li > a {
+.main-nav .nav > li > a {
   font-size: 1.2rem;
   padding: 7px 12px; }
   @media (min-width: 768px) and (max-width: 1200px) {
-    .nav > li > a {
+    .main-nav .nav > li > a {
       padding: 7px 10px; } }
+
+.main-nav__container {
+  height: 177px;
+  position: relative; }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .main-nav__container {
+      height: 60px; } }
 
 @media (min-width: 768px) {
   .navbar-collapse {
@@ -168,3 +168,10 @@ header {
   margin-top: 40px; }
   .map-container .items {
     padding: 30px 20px; }
+  .map-container nav {
+    margin-top: 10px; }
+  .map-container .navbar-link {
+    color: #00aeff;
+    font-size: 1.4rem; }
+  .map-container .stats {
+    text-align: center; }

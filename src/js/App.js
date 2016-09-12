@@ -4,6 +4,7 @@ var ReactDOM = require('react-dom');
 var Search = require('./Search');
 var UtilityNav = require('./UtilityNav');
 var MainNav = require('./MainNav');
+var Map = require('./Map');
 
 class App extends React.Component {
   render() {
@@ -23,12 +24,7 @@ class App extends React.Component {
           <div className="row">
             <div className="offset-container col-lg-4">
               <Search />
-              <div className="map-container">
-                <div className="items">
-                  <h1>Cardiology and Cardiac Surgery</h1>
-                  <h4>Oxford General Medical Center - Main</h4>
-                </div>
-              </div>
+              <Map />
             </div>
             <div className="col-lg-8">
               stuff
