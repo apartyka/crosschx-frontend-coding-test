@@ -15,12 +15,6 @@ h1 {
   line-height: 46px;
 }
 
-@import 'header'; // Top blue header
-@import 'utilityNav';
-@import 'mainNav';
-@import 'search';
-
-
 .offset-container {
   margin-top: -95px;
 
@@ -29,24 +23,8 @@ h1 {
   }
 }
 
-.map-container {
-  background-color: #fff;
-  margin-top: 40px;
-
-  .items {
-    padding: 30px 20px;
-  }
-
-  nav {
-    margin-top: 10px;
-  }
-
-  .navbar-link {
-    color: #00aeff;
-    font-size: 1.4rem;
-  }
-
-  .stats {
-    text-align: center;
-  }
-}
+@import 'header'; // Top blue header
+@import 'utilityNav';
+@import 'mainNav';
+@import 'search';
+@import 'map';
