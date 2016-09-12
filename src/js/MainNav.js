@@ -4,8 +4,8 @@ var React = require('react');
 class MainNav extends React.Component {
   render() {
     return(
-      <div className="navbar-container">
-        <nav className="navbar navbar-default">
+      <div className="main-nav__container">
+        <nav className="main-nav navbar-default">
           <div className="navbar-header">
             <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span className="sr-only">Toggle navigation</span>

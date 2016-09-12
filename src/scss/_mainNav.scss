@@ -8,14 +8,7 @@
 }
 
 
-.navbar-container {
-  height: 177px;
-  position: relative;
 
-  @media (min-width: 768px) and (max-width: 1200px) {
-    height: 60px;
-  }
-}
 
 @media (min-width: 768px) and (max-width: 1200px) {
   .navbar-right {
@@ -42,28 +35,39 @@
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .navbar {
+  .main-nav {
     @include navbar;
     left: 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .navbar {
+  .main-nav {
     @include navbar;
     right: 0;
   }
 }
 
-.nav {
-  > li {
-    > a {
-      font-size: 1.2rem;
-      padding: 7px 12px;
+.main-nav{
+  .nav {
+    > li {
+      > a {
+        font-size: 1.2rem;
+        padding: 7px 12px;
 
-      @media (min-width: 768px) and (max-width: 1200px) {
-        padding: 7px 10px;
+        @media (min-width: 768px) and (max-width: 1200px) {
+          padding: 7px 10px;
+        }
       }
+    }
+  }
+
+  &__container {
+    height: 177px;
+    position: relative;
+
+    @media (min-width: 768px) and (max-width: 1200px) {
+      height: 60px;
     }
   }
 }
